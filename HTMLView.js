@@ -1,6 +1,7 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import htmlToElement from './htmlToElement';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import {Linking, Platform, StyleSheet, View, ViewPropTypes} from 'react-native';
 
 const boldStyle = {fontWeight: 'bold'};
